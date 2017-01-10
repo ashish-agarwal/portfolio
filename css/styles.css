@@ -1,43 +1,49 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:100i,400');
-@import url('http://weloveiconfonts.com/api/?family=zocial');
+@import url("https://fonts.googleapis.com/css?family=Raleway:100i,400");
+@import url("http://weloveiconfonts.com/api/?family=zocial");
 
-.container{
-    font-family: 'Raleway', sans-serif;
+.container {
+    font-family: "Raleway", sans-serif;
 }
 
 .project > img {
     box-shadow: 10px 5px 10px #9e9e9e;
-    height: 25vh;
     width: 100%
 }
 
-.seperator{
-  border-style: solid none;
-  border-width: 1px 0;
+.seperator {
+ 	border-style: solid none;
+	border-width: 1px 0;
 }
 
-.main-picture{
+.main-picture {
     width: 100%;
 }
 
-.logo{
-    height: 20vh;
+.logo {
+    width: 20vh;
 }
 
-footer{
+footer {
     padding-right: 15px;
     margin-bottom: 15px;
 }
 
-#social>span{
+.social>span {
     font-size: 20px
+}
+
+.hr {
+    width: 100%;
+    height: 20px;
+    border-bottom: 1px solid black;
+    margin: 0px 0px 20px;
 }
 
 /* this is the font zocial style for setting facebook ,twitter, github icon on webpage */
 
 [class*="zocial-"]:before {
     display: inline-block;
-    font-family: 'zocial', sans-serif;
+    font-family: "zocial", sans-serif;
     text-shadow: 3px 3px 3px #aaa;
     width: 2em;
 }
@@ -47,7 +53,7 @@ a:hover [class*="zocial-"]:before {
     color: #5191cc;
 }
 
-footer{
+footer {
     text-align: right
 }
 
@@ -60,17 +66,18 @@ footer{
 }
 /* zocial */
 [class*="zocial-"]:before {
-  font-family: 'zocial', sans-serif;
+  font-family: "zocial", sans-serif;
 }
 
 @media only screen and (max-width: 780px) {
-    *{
+    * {
         text-align: center
     }
+
     .project > img {
         width: 100%;
         height: inherit
-}
+    }
 
 
 }
